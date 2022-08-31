@@ -1,0 +1,27 @@
+{
+    "name": "y1/magento2-module-manage-pagebuilder-status",
+    "description": "Allows changing pagebuilder usage for each individual CMS block or page",
+    "require": {
+        "php": "~7.4.0 || ~8.1.0",
+        "magento/module-page-builder": "^2.2.1",
+        "magento/module-cms": "^104.0.1"
+    },
+    "type": "magento2-module",
+    "license": [
+        "osl-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Dominik Meglič",
+            "email": "dominik.meglic@y1.de"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Y1\\ManagePagebuilderStatus\\": ""
+        }
+    }
+}
