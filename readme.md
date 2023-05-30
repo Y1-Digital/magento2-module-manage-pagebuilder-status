@@ -4,7 +4,7 @@ This module allows an admin to turn the pagebuilder on/off for specific CMS bloc
 
 ## Requirements
 
-- PHP 7.4, 8.1
+- PHP 7.4, 8.1, 8.2
 - Magento >= 2.4.4
 
 Generally the last full release -1 version is tested and made to work. Older versions are not actively supported.
