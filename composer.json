@@ -2,7 +2,7 @@
     "name": "y1/magento2-module-manage-pagebuilder-status",
     "description": "Allows changing pagebuilder usage for each individual CMS block or page",
     "require": {
-        "php": "~7.4.0 || ~8.1.0",
+        "php": "~7.4.0 || ^8.1",
         "magento/module-page-builder": "^2.2.1",
         "magento/module-cms": "^104.0.1"
     },
